@@ -1,0 +1,66 @@
+.screen a {
+  display: contents;
+}
+.container-center-horizontal {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+.modal {
+  align-items: flex - start;
+  background-color: var white;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 737px;
+  padding: 63px 0;
+  width: 1302px;
+}
+.modal-1 {
+  letter-spacing: 0;
+  margin-left: 64px;
+  min-height: 72px;
+}
+.card_info {
+  align-items: flex - start;
+  background-color: concrete;
+  border: 1.4px solid;
+  border-color: gray;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 64px;
+  margin-top: 50px;
+  min-height: 124px;
+  padding: 22.6px 0;
+  width: 307px;
+}
+.font {
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 30px;
+  min-height: 24px;
+  white-space: nowrap;
+}
+.description {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-top: 20px;
+  min-height: 32px;
+  min-width: 247px;
+  white-space: nowrap;
+}
+.modal-2 {
+  align-self: center;
+  height: 344px;
+  margin-top: 20px;
+  width: 1174px;
+}
